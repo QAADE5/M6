@@ -1,0 +1,35 @@
+{
+  "bundle_name": "orders.zip",
+  "source_system": "Adventure Works Sales (Microsoft Learn sample data)",
+  "source_location": "https://github.com/MicrosoftLearning/dp-data",
+  "extracted_at": "2026-07-08T00:25:29Z",
+  "schema_version": "1.0",
+  "columns": [
+    "SalesOrderNumber",
+    "SalesOrderLineNumber",
+    "OrderDate",
+    "CustomerName",
+    "Email",
+    "Item",
+    "Quantity",
+    "UnitPrice",
+    "Tax"
+  ],
+  "files": [
+    {
+      "file_name": "2019.csv",
+      "record_count": 1201,
+      "sha256": "6aa5acb46dd716c8304a5c65bb3c9e75613f6b4e7e571f4005c628a71da75b3a"
+    },
+    {
+      "file_name": "2020.csv",
+      "record_count": 2733,
+      "sha256": "2ba6e6877427f86b2f24a6310621ba4d9ddb874b22b5bd4ee5ed9ee712ddeb61"
+    },
+    {
+      "file_name": "2021.csv",
+      "record_count": 28784,
+      "sha256": "03029c9dee103f1b3d2980e783efb8071b85f43d32f36bf938ca8e65bc0beb41"
+    }
+  ]
+}
